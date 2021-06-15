@@ -1,0 +1,433 @@
+/*Clases generales*/
+body {
+    margin:0;
+    padding:0;
+}
+
+.Global {
+    width:85%;
+    height:95%;
+    margin:2.5% 7.5% 2.5% 7.5%;
+    padding:0;
+    border-radius:100px;
+    box-shadow: 10px 10px 41px -5px rgba(0,0,0,0.52);
+    overflow:hidden;
+}
+
+header {
+    width:100%;
+    height:100px;
+    margin:0;
+    padding:0;
+}
+/*Clases generales*/
+
+/*Menu*/
+.menuGlobal {
+    width:100%;
+    height:100%;
+    font-size:0;
+}
+
+.menuGlobal ul {
+    margin:0;
+    padding:0;
+    display:inline-block;
+}
+
+.menuSeccion1 {
+    width:32.5%;
+    height:100%;
+}
+
+.menuSeccion1 li {
+    width:100%;
+    height:100%;
+    margin:auto;
+    padding:0;
+    display:inline-table;
+}
+
+.menuSeccion1 li h3 {
+    width:100%;
+    height:100%;
+    font-size:30px;
+    font-family:'Arial Black';
+    font-weight:bolder;
+    margin:0;
+    padding:0;
+    display:table-cell;
+    vertical-align:bottom;
+    text-align:center;
+}
+
+.menuSeccion2 {
+    width:35%;
+    height:100%;
+}
+
+.menuSeccion2 li {
+    width:calc(100%/5);
+    height:100%;
+    margin:0;
+    padding:0;
+    display:inline-table;
+}
+
+.menuSeccion2 li a {
+    width:100%;
+    text-decoration:none;
+    color:#000;
+    font-size:20px;
+    font-family:Candara;
+    font-weight:bolder;
+    margin:auto;
+    padding:0;
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.menuSeccion2 li a:hover {
+    border-top:3px solid rgb(100, 100, 255);
+}
+
+.menuSeccion3 {
+    width:32.5%;
+    height:100%;
+    float:right;
+}
+
+.menuSeccion3 li {
+    width:100%;
+    height:100%;
+    display:inline-table;
+    margin:auto;
+    padding:0;
+    position:relative;
+}
+
+.menuSeccion3 li input:nth-child(1)  {
+    width:30px;
+    height:30px;
+    margin:0;
+    border-radius:15px;
+    border:2.5px grey solid;
+    background-color:#fff;
+    background-image:url('Resources/Lupa.svg');
+    background-size:90%;
+    background-position:90% 40%;
+    background-repeat:no-repeat;
+    display:table-cell;
+    vertical-align:bottom;
+    text-align:center;
+    cursor:pointer;
+    position:absolute;
+    right:60%;
+    bottom:20%;
+}
+
+.menuSeccion3 li input:nth-child(2)  {
+    height:30px;
+    border-radius:15px;
+    border:2.5px grey solid;
+    background-color:#fff;
+    font-weight:bolder;
+    font-family:'Arial Black';
+    display:table-cell;
+    vertical-align:bottom;
+    text-align:center;
+    margin:0 0 0 20px;
+    cursor: pointer;
+    position:absolute;
+    right:35%;
+    bottom:20%;
+}
+
+
+/*Menu*/
+
+
+/*Contenido*/
+.Contenido {
+    width:100%;
+    height:700px;
+}
+
+.seccion1 {
+    width:100%;
+    height:20%;
+    position:relative;
+}
+
+.seccion1 h1 {
+    margin:0;
+    padding:0;
+    font-size:50px;
+    font-family:candara;
+    position:absolute;
+    bottom:15%;
+    left:10%; 
+}
+
+.seccion2 {
+    width:100%;
+    height:5%;
+}
+
+.opciones {
+    height:100%;
+    margin:0;
+    padding-top:0;
+    padding-bottom:0;
+    padding-left:0;
+    padding-right:10%;
+    position:relative;
+}
+
+.opciones li:nth-child(1) {
+    height:100%;
+    margin-right:5px;
+    list-style:none;
+    display:inline-table;
+    position:absolute;
+    border-right:2px grey solid;
+    right:16%;
+}
+
+.opciones li:nth-child(2) {
+    height:100%;
+    margin-right:5px;
+    list-style:none;
+    display:inline-table;
+    position:absolute;
+    right:10.6%;
+}
+
+.opciones li input {
+    width:100%;
+    height:100%;
+    cursor: pointer;
+    border:none;
+    display:table-cell;
+    vertical-align:middle;
+    background-color:#fff;
+}
+
+.opciones li:nth-child(1) input {
+    font-weight:bolder;
+}
+
+.opciones li:nth-child(2) input {
+    color:grey;
+}
+
+.seccion3 {
+    height:80%;
+    margin-top:10px;
+    padding-left:10%;
+    padding-right:10%;
+    font-size:0;
+}
+
+.subSeccion1_categorias {
+    width:100%;
+    height:45%;
+}
+
+.descBox {
+    width:20%;
+    height:100%;
+    float:left;
+}
+
+.descBox div:nth-child(1) {
+    width:100%;
+    height:20%;
+}
+
+.descBox div:nth-child(1) h2 {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-size:35px;
+    font-family:candara;
+    text-align:left;
+}
+
+.descBox div:nth-child(2) {
+    width:100%;
+    height:20%;
+}
+
+.descBox div:nth-child(2) h5 {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-size:15px;
+    font-family:arial;
+    color:rgb(180, 180, 180);
+    text-align:left;
+}
+
+.descBox div:nth-child(3) {
+    width:100%;
+    height:60%;
+}
+
+.descBox div:nth-child(3) p {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-size:15px;
+    font-family:verdana;
+    text-align:left;
+}
+
+.muestrasBox {
+    width:80%;
+    height:100%;
+    display:inline-block;
+    border-bottom:3px rgb(189, 189, 189) solid;
+}
+
+.muestrasBox div:nth-child(1) {
+    width:30%;
+    height:90%;
+    background-image:url('Resources/Landscape.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:inline-block;
+    border-radius:50px;
+    margin-left:calc(10%/3);
+}
+
+
+.muestrasBox div:nth-child(2) {
+    width:30%;
+    height:90%;
+    background-image:url('Resources/Landscape.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:inline-block;
+    border-radius:50px;
+    margin-left:calc(10%/3);
+}
+
+
+.muestrasBox div:nth-child(3) {
+    width:30%;
+    height:90%;
+    background-image:url('Resources/Landscape.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:inline-block;
+    border-radius:50px;
+    margin-left:calc(10%/3);
+}
+
+
+
+.subSeccion2_categorias {
+    width:100%;
+    height:45%;
+    margin-top:2%;
+}
+
+.descBox2 {
+    width:20%;
+    height:100%;
+    float:left;
+}
+
+.descBox2 div:nth-child(1) {
+    width:100%;
+    height:20%;
+}
+
+.descBox2 div:nth-child(1) h2 {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-size:35px;
+    font-family:candara;
+    text-align:left;
+}
+
+.descBox2 div:nth-child(2) {
+    width:100%;
+    height:20%;
+}
+
+.descBox2 div:nth-child(2) h5 {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-size:15px;
+    font-family:arial;
+    color:rgb(180, 180, 180);
+    text-align:left;
+}
+
+.descBox2 div:nth-child(3) {
+    width:100%;
+    height:60%;
+}
+
+.descBox2 div:nth-child(3) p {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-size:15px;
+    font-family:verdana;
+    text-align:left;
+}
+
+.muestrasBox2 {
+    width:80%;
+    height:100%;
+    display:inline-block;
+}
+
+.muestrasBox2 div:nth-child(1) {
+    width:30%;
+    height:90%;
+    background-image:url('Resources/Landscape.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:inline-block;
+    border-radius:50px;
+    margin-left:calc(10%/3);
+}
+
+
+.muestrasBox2 div:nth-child(2) {
+    width:30%;
+    height:90%;
+    background-image:url('Resources/Landscape.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:inline-block;
+    border-radius:50px;
+    margin-left:calc(10%/3);
+}
+
+
+.muestrasBox2 div:nth-child(3) {
+    width:30%;
+    height:90%;
+    background-image:url('Resources/Landscape.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:inline-block;
+    border-radius:50px;
+    margin-left:calc(10%/3);
+}
+
+/*Contenido*/
